@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:in_time_digital/screens/appointment_page.dart';
 import 'package:in_time_digital/screens/home_page.dart';
 import 'package:in_time_digital/screens/input_page.dart';
 import 'package:in_time_digital/screens/intro_slider.dart';
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         HomePage.id: (context) => const HomePage(),
         OnBoarding.id: (context) => const OnBoarding(),
         InputPage.id: (context) => const InputPage(),
+        AppointmentPage.id: (context) => AppointmentPage(),
       },
     );
   }
